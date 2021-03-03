@@ -1,0 +1,83 @@
+.slider-title
+    margin-bottom: 50px 
+    font-size: 77px 
+    font-family: Cormorant
+    font-weight: 400
+    color: $main-color
+
+.description
+    display: flex
+    padding-left: 35%
+    padding-bottom: 70px
+    &__text
+        color: $secondary-color
+    &__text:first-of-type
+    padding-right: 60px 
+
+/*слайдйер*/
+
+.slider-slider
+    
+    &-slide
+        position: relative
+.swiper
+    &-wrapper 
+    &-button 
+        &-next
+
+        &-prev
+.pagination__bullet
+    cursor: pointer
+    height: 7px
+    width: 7px
+    margin: 0 2px
+    background-color: $main-color
+    opacity: 0.2
+    border-radius: 50%
+    display: inline-block
+    transition: background-color 0.6s ease
+    &:hover
+        opacity: 1
+    &-active
+        opacity: 1
+        &:hover
+             opacity: 1
+
+.pagination
+    display: flex
+    width: 100%
+    justify-content: center
+    margin-top: 30px
+.slider
+    &-plan
+        margin-bottom: 50px 
+        font-size: 32px
+        font-family: San Francisco Pro Display
+        font-weight: 300
+    &-wrap
+        display: flex  
+        justify-content: space-between
+    &-statistics
+        border-top: 1px solid $main-color
+        text-align: left
+        width: calc((100%-120px)/3)
+        margin-right: 60px
+        &:last-of-type
+            margin-right: 0
+    &-km
+        font-size: 26px
+    &-number
+        padding: 30px 0 5px
+        font-size: 64px
+        font-family: San Francisco Pro Display
+        font-weight: 200
+        &-km
+            display: inline-block
+            padding: 30px 0 5px
+            font-size: 64px
+            font-family: San Francisco Pro Display
+            font-weight: 200   
+    &-text
+        font-family: San Francisco Pro Display
+        font-weight: 400
+        color: $secondary-color  

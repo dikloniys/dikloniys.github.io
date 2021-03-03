@@ -1,0 +1,97 @@
+.application
+    background-color: $main-color
+    padding-top: 150px
+    &-adaptive
+        display: flex
+        justify-content: space-between
+        width: 100%
+    &-wrap
+        display: flex
+        justify-content: space-between
+        &-title
+            display: flex
+    &-title
+        padding: 0 12% 35px 0
+        font-weight: 300
+        color: #fff
+    &-text
+        color: $tertiary-color
+        line-height: 22px
+        padding-bottom: 12px
+    &-map
+        color: #fff
+        padding-bottom: 30px
+        font-size: 20px
+        text-transform: uppercase
+    &-cramp:first-of-type
+        margin-right: 50px
+        
+.form
+    margin-right: 40px   
+.field
+    background: transparent
+    border: none
+    border-bottom: 1px solid $secondary-color 
+    height: 30px
+    width: 380px
+    outline: none
+    margin-bottom: 35px
+    &.error
+        border-bottom: 1px solid red
+    &:hover
+        border-bottom: 1px solid #fff
+        color: #fff
+        transition: 0.4s
+    &-btn
+        width: 240px
+        height: 50px
+        background-color: $main-color
+        color: $tertiary-color
+        outline: none
+        border: 1px solid #fff
+        margin-bottom: 150px
+.checkbox 
+    display: block
+    margin-bottom: 40px
+    &-text
+        font-size: 14px
+        color: $tertiary-color
+    &.checkmark:after 
+        left: 8px
+        top: 6px
+        width: 6px
+        height: 11px
+        border: solid #fff
+        border-width: 0 2px 2px 0
+        transform: rotate(45deg)
+    &input 
+        opacity: 0
+        height: 0
+        width: 0
+        &:checked ~ .checkmark:after 
+            display: block
+.checkmark 
+    height: 23px
+    width: 22px
+    background-color: #ffffff
+    &:after 
+        content: ""
+        position: absolute
+        display: none
+.checkbox input:checked ~ .checkmark 
+    background-color: $main-color
+    
+.footer
+    background-color: #282828
+    color: $tertiary-color
+    min-height: 100px
+    padding: 26px 0
+    &-wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-logo
+        font-size: 40px
+        font-weight: 300
+        font-family: Cormorant
+    &-text

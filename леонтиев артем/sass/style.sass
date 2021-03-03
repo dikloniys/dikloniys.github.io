@@ -1,0 +1,149 @@
+$main-color: #3D3D3D
+$secondary-color: #8F8F8F
+$tertiary-color: #C7C7C7
+$main-margin: 200px
+$main-padding: 200px
+@import 'fonts'
+@import 'header'
+@import 'layout'
+@import 'map'
+@import 'gallery'
+@import 'apartments'
+@import 'valoclub'
+@import 'team'
+@import 'application'
+@import 'slider'
+@import 'style'
+img
+    width: 100%
+.main-padding
+    padding: 200px 0 
+
+        
+.title
+    font-size: 32px
+.text
+    font-size: 16px
+h1, .h1_title
+    font-size: 30px
+    font-weight: normal
+
+h2
+    color: $main-color
+*
+    margin: 0
+    box-sizing: border-box  
+body, div, .header, p, a
+    font-family: 'San Francisco Pro Display'
+    font-weight: 400
+.container
+    max-width: 1200px
+    margin: 0 auto
+a
+    text-decoration: none
+@media (max-width: 1240px)
+    .container
+        max-width: 960px
+        margin: 0 auto    
+    .main-padding
+        padding: 150px 0
+    .title
+        font-size: 30px
+    .text
+        font-size: 14px
+    .slider-title
+        font-size: 62px
+    .gallery
+        &-slider
+            padding: 150px 0
+        &-title
+            width: 35%
+    .map-description
+        flex-wrap: wrap
+    .map-title
+        padding-bottom: 50px
+    .style-img-left
+        padding-right: 20px
+    .style-img-right
+        padding-left: 20px
+    .apartments-description
+        font-size: 56px
+    .apartments-wrapper
+        padding-bottom: 100px
+    .apartments-wrapper-next
+        padding-bottom: 100px
+    .field
+        width: 280px
+@media (max-width: 1000px)
+    .container
+        max-width: 600px
+        margin: 0 auto    
+    .main-padding
+        padding: 100px 0
+    .slider-wrap
+        flex-wrap: wrap
+    .slider-statistics
+        margin-bottom: 50px
+    .slider-title
+        font-size: 42px
+    .description
+        padding-left: 0
+        padding-bottom: 50px
+    .description__text:first-of-type
+        padding-right: 40px
+    .gallery-slider
+        padding: 100px 0
+    .gallery-title
+        width: 70%
+    .gallery-description 
+        width: 100%
+    .map-description
+        flex-wrap: wrap
+    .map-title
+        padding-bottom: 50px
+    .style-wrap 
+        margin-bottom: 100px
+    .style-title 
+        margin-bottom: 20px
+    .style-text
+        width: 100%
+        margin-left: 0
+    .style-img-left
+        padding-right: 20px
+    .style-img-right
+        padding-left: 20px
+    .apartments-description
+        font-size: 36px
+    .apartments-wrapper
+        padding-bottom: 80px
+    .apartments-wrapper-next
+        padding-bottom: 80px
+    .application-adaptive
+        display: block
+    
+@media (max-width: 640px)
+    .container
+        max-width: 300px
+        margin: 0 auto    
+    .main-padding
+        padding: 80px 0
+    .title
+        font-size: 28px
+    .gallery-slider
+        padding: 0 0
+    .slider-title
+        font-size: 40px
+    .description
+        flex-wrap: wrap
+        padding-bottom: 20px
+    .description__text:first-of-type
+        padding-bottom: 20px
+        padding-right: 0px
+    .slider-statistics
+        width: 100%
+    .map-text
+        width: 100%
+
+
+
+

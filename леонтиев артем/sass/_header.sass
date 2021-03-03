@@ -1,0 +1,136 @@
+
+.header
+    background-color: #282828
+    height: 850px
+    &__menu
+        display: flex
+        justify-content: space-between
+        padding: 26px 0 56px
+    &__slider
+        display: flex
+        justify-content: center
+    &__date
+        color: #fff 
+    &__circle
+        position: absolute
+        width: 480px
+        height: 480px
+        border: 1px solid rgba(255, 255, 255, 0.1)
+        border-radius: 50%
+        display: flex
+        justify-content: center
+    &__description
+        color: #fff
+    &-slide
+        position: relative
+        width: 100%
+        display: flex
+        justify-content: center
+
+        & img
+            height: 100%
+            width: auto
+        &__title
+            display: flex
+            justify-content: center
+            font-family: Cormorant
+            position: absolute
+            letter-spacing: 0.15em
+            font-size: 180px
+            top: calc( 50% - 109px )
+            left: 0
+            right: 0
+            font-weight: 300
+            color: #fff
+    &-container
+        width: 100%
+        overflow: hidden
+.contact
+    display: flex
+    &_us
+        color: #fff
+        &__border
+            background-color: #ffffff
+            width: 30px
+            height: 1px
+            margin: 8px 10px
+
+.gallery
+    &-slider
+        overflow: hidden
+        position: relative
+        padding: 0 calc((100% - 1200px)/2)
+    &-slide
+        width: 100%
+        & > img
+            width: 100%
+    &-navigation
+        display: flex
+        justify-content: space-between
+        width: 1320px
+        left: -60px
+        top: calc( 50% - 18px )
+        position: absolute
+    &-arrow
+        width: 30px
+        height: 30px
+        background-color: #000
+    &-bullet
+        width: 20px
+        height: 20px
+        &-active
+.burger-active
+    &-centr
+        display: none
+    &-top
+        transform: rotate(45deg)
+        top: 2px
+        position: relative
+    &-bottom
+        transform: rotate(-45deg)
+        bottom: 4px
+        position: relative
+.burger
+    cursor: pointer 
+    justify-content: center
+    &__border
+        background-color: #ffffff
+        width: 30px
+        height: 1px
+        margin: 5px
+        // бургер меню закрыто
+    &__menu
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        padding-top: 225px
+        &-messenger
+            display: flex
+            justify-content: center
+            align-items: flex-end
+            padding-top: 250px
+        &-wrapper
+            display: none
+.menu
+    &__title
+        color: #ffffff
+        font-size: 60px
+        font-family: Cormorant
+        line-height: 72px
+        padding-right: 50px
+    &__messenger
+        color: $tertiary-color
+        padding-right: 50px
+    &__line
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+.reserve
+    display: flex  
+    &_now
+        color: #fff
+        &__border
+            background-color: #ffffff
+            width: 30px
+            height: 1px
+            margin: 8px 10px
